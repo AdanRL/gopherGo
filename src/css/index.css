@@ -1,3 +1,12 @@
-div {
-  background-color: red;
+:root {
+  --gopher-color: #69d7e2;
+}
+
+.gopher-head {
+  width: 360px;
+  height: 400px;
+  background: var(--gopher-color);
+  border-radius: 42% 42% 0 0;
+  border: 3px solid black;
+  margin: 2em auto;
 }
